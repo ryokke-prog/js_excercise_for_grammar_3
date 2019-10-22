@@ -28,7 +28,7 @@ while(num < 100) {
 //     - 正解が出たらWhileループを抜ける
 const question = "パンはパンでも食べられないパンは？";
 const answer = "フライパン";
-let input ="";
+let input = "";
 while(answer !== input) {
     input = window.prompt(question);
     if(input === answer) {
